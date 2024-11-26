@@ -1,1 +1,1 @@
-GET http://localhost:8080/api/historical-salaries?nom=assa
+GET http://localhost:8080/api/historical-salaries?nom=assaa
