@@ -25,7 +25,7 @@ public class SecurityConfig {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.setAllowedOrigins(List.of("https://witty-tree-0343d1003.5.azurestaticapps.net/"));
+        configuration.setAllowedOrigins(List.of("https://witty-tree-0343d1003.5.azurestaticapps.net/","https://witty-tree-0343d1003-dev.westeurope.5.azurestaticapps.net"));
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(Arrays.asList("*"));
         configuration.setAllowCredentials(true);
