@@ -9,7 +9,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/api/**")
-                .allowedOrigins("https://witty-tree-0343d1003.5.azurestaticapps.net/")
+                .allowedOrigins("https://witty-tree-0343d1003-dev.westeurope.5.azurestaticapps.net/")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true);
